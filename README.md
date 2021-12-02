@@ -3,8 +3,8 @@
 - Clone this repo or download it's release archive and extract it somewhere
 - You may delete `.git` folder if you get this code via `git clone`
 - Run `composer install`
+- Run `php artisan jwt:secret`
 - Run `php artisan key:generate`
-- Run `php artisan jwt:generate`
 - Configure your `.env` file for authenticating via database
 - Run `php artisan migrate`
 
